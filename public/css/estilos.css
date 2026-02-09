@@ -1,0 +1,195 @@
+/*  Estos son los colores básicos para mi proyecto del Sombrero Sellecionador */
+:root {
+  --hogwarts-purple: #3f2b6a;
+  --hogwarts-gold: #c69c2d;
+  --bg: #0f0e12;
+}
+/*  Estos son los estilos generales de mi página */
+body {
+  background: var(--bg);
+  color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*  para degradados y colores de texto */
+.bg-gradient {
+  background: linear-gradient(90deg, #3f2b6a 0%, #3c2864 50%, #261e3c 100%);
+  color: #fff;
+}
+
+.text-gold { color: var(--hogwarts-gold); }
+/*  para el botón principal */
+.btn-primary {
+  background: var(--hogwarts-purple);
+  border-color: var(--hogwarts-purple);
+}
+.btn-primary:hover { background: #5b3d96; }
+
+.container img { max-width: 100%; }
+
+/*  La imágen del sombrero tiene un efecto de pensando
+se inclina a la izquierda y vuelve */
+.hat {
+  width: 280px;
+  transition: transform .3s ease;
+}
+.hat.thinking { animation: tilt .8s infinite ease-in-out; }
+
+@keyframes tilt {
+  0%,100% { transform: rotate(0deg) }
+  50% { transform: rotate(-6deg) }
+}
+/*  Lo utilizo para los escudos */
+.escudo { width: 220px; }
+.form-control, .form-select { border-radius: 6px; }
+
+/* Esto es para paneles claros */
+.bg-light { background: #fff !important; }
+
+/* Para los relojes de arena  */
+.reloj-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100px;
+  margin: 10px auto;
+}
+
+.reloj-fondo {
+  width: 30px;
+  height: 80px;
+  border: 2px solid #c9a14a;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #2e2e2e, #111);
+  overflow: hidden;
+  position: relative;
+}
+
+.reloj-arena {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0 0 8px 8px;
+  transition: height 1s ease;
+}
+
+.reloj-gryffindor .reloj-arena { background: linear-gradient(to top, #a00000, #ff3333); }
+.reloj-slytherin .reloj-arena  { background: linear-gradient(to top, #004d00, #00cc66); }
+.reloj-ravenclaw .reloj-arena  { background: linear-gradient(to top, #003366, #3399ff); }
+.reloj-hufflepuff .reloj-arena { background: linear-gradient(to top, #997a00, #ffcc33); }
+
+/* Para la Tabla de resultados, lo centro */
+.table td, .table th {
+  padding: 0.5rem !important;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Colores por casa */
+[class*="fila-"] td {
+  background-color: inherit !important;
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Fondos de  las casas */
+.fila-gryffindor { background-color: rgba(255, 51, 51, 0.25) !important; }
+.fila-slytherin  { background-color: rgba(0, 204, 102, 0.25) !important; }
+.fila-ravenclaw  { background-color: rgba(51, 153, 255, 0.25) !important; }
+.fila-hufflepuff { background-color: rgba(255, 204, 51, 0.25) !important; }
+
+/* Lo utilizo para ordes mágicos */
+.fila-gryffindor td:first-child { border-left: 5px solid #ff3333; }
+.fila-slytherin td:first-child  { border-left: 5px solid #00cc66; }
+.fila-ravenclaw td:first-child  { border-left: 5px solid #3399ff; }
+.fila-hufflepuff td:first-child { border-left: 5px solid #ffcc33; }
+
+/* Efecto hover */
+[class*="fila-"]:hover {
+  filter: brightness(1.2);
+  box-shadow: 0 0 12px 2px rgba(198, 156, 45, 0.6);
+  transition: all 0.3s ease;
+}
+
+/* Test en color pergamino */
+form#testForm,
+.bg-parchment {
+  background: #f6e7c1 url('../img/pergamino-textura.jpg') center/cover no-repeat;
+  color: #3a2a10;
+  border: 2px solid #c69c2d;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  font-family: 'Georgia', serif;
+  padding: 25px;
+}
+
+.bg-parchment legend {
+  color: #5b3d96;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+.bg-parchment .form-check-input:checked + .form-check-label {
+  font-weight: bold;
+  color: #3f2b6a;
+  text-shadow: 0 0 6px rgba(99, 68, 166, 0.8);
+  transition: all 0.3s ease;
+}
+
+/* Botón mágico del test*/
+.btn-enviar {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(198,156,45,0.4);
+  transition: all 0.3s ease;
+}
+.btn-enviar:hover {
+  background-color: #c69c2d !important;
+  color: #000 !important;
+  box-shadow: 0 0 15px rgba(198,156,45,0.7), 0 0 40px rgba(255,215,0,0.4);
+  transform: scale(1.05);
+}
+
+/* Para los escudos mágicos */
+.escudo {
+  width: 220px;
+  border-radius: 14px;
+  padding: 8px;
+  background: radial-gradient(circle at center, #fff 70%, #f8f8f8 100%);
+  transition: all 0.4s ease;
+  animation: auraMagica 4s infinite ease-in-out;
+}
+
+@keyframes auraMagica {
+  0%,100% {
+    transform: scale(1);
+    box-shadow: 0 0 12px rgba(255, 215, 0, 0.4),
+                0 0 20px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(255, 215, 0, 0.8),
+                0 0 50px rgba(255, 255, 255, 0.4);
+  }
+}
+
+/* Colores por casa */
+.escudo-gryffindor { border: 5px solid #b22222; box-shadow: 0 0 25px rgba(178, 34, 34, 0.7); }
+.escudo-slytherin  { border: 5px solid #1a6334; box-shadow: 0 0 25px rgba(0, 204, 102, 0.7); }
+.escudo-ravenclaw  { border: 5px solid #2a4dbd; box-shadow: 0 0 25px rgba(51, 153, 255, 0.7); }
+.escudo-hufflepuff { border: 5px solid #d4a017; box-shadow: 0 0 25px rgba(255, 204, 51, 0.7); }
+
+/* le pongo un hover brillante */
+.escudo:hover {
+  transform: scale(1.06);
+  box-shadow: 0 0 35px rgba(255, 215, 0, 0.9),
+              0 0 60px rgba(255, 255, 255, 0.6);
+  filter: brightness(1.1);
+}
+/* Estilo para los encabezados de la tabla de últimos resultados */
+.table thead th {
+  background-color: #000 !important;  /* fondo negro */
+  color: #fff !important;              /* letras blancas */
+  font-weight: bold;                   /* texto en negrita */
+  text-align: center;                  /* centrado */
+  border-bottom: 2px solid #c69c2d;    /* línea dorada sutil opcional */
+}
+
