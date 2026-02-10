@@ -44,3 +44,6 @@ Autor:
 
 Adolmr-rgb Adolfo Martín Rodríguez
 Proyecto desarrollado como parte de mi formación en Desarrollo de Aplicaciones Web.
+## License
+This project is licensed under the [CC BY-NC-ND 4.0 License](LICENSE).
+
