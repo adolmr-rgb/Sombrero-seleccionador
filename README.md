@@ -41,9 +41,8 @@ Ranking global de casas.
 Interfaz tematizada.
 
 Autor:
-
-Adolmr-rgb Adolfo Martín Rodríguez
-Proyecto desarrollado como parte de mi formación en Desarrollo de Aplicaciones Web.
+Adolfo Martín Rodríguez (adolmr-rgb)
+Proyecto desarrollado como parte de la formación en Desarrollo de Aplicaciones Web (DAW).
 ## License
 This project is licensed under the [CC BY-NC-ND 4.0 License](LICENSE).
 
