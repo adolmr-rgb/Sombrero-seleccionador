@@ -35,12 +35,16 @@ Aplicación web interactiva inspirada en el Sombrero Seleccionador de Harry Pott
    ```bash
    git clone https://github.com/adolmr-rgb/Sombrero-seleccionador.git
 
-✨ Funcionalidades principales
-Cuestionario interactivo
-Asignación automática de casa
-Registro y almacenamiento de resultados
-Ranking global de casas
-Interfaz tematizada
+---
+
+## Funcionalidades principales
+- Cuestionario interactivo
+- Asignación automática de casa
+- Registro y almacenamiento de resultados
+- Ranking global de casa
+- Interfaz tematizada
+
+---
 
 Autor:
 Adolfo Martín Rodríguez (adolmr-rgb)
