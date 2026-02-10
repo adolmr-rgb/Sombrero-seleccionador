@@ -46,9 +46,10 @@ Aplicación web interactiva inspirada en el Sombrero Seleccionador de Harry Pott
 
 ---
 
-Autor:
+## Autor
 Adolfo Martín Rodríguez (adolmr-rgb)
 Proyecto desarrollado como parte de la formación en Desarrollo de Aplicaciones Web (DAW).
+---
 ## License
 This project is licensed under the [CC BY-NC-ND 4.0 License](LICENSE).
 
