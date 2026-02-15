@@ -8,17 +8,17 @@ La idea principal es ofrecer una experiencia sencilla pero entretenida: responde
 ## ¿Qué busca este proyecto?
 Más que un simple ejercicio técnico, quería crear algo completo que mezclara lógica, diseño y un poco de creatividad.
 ### Generales
--Construir una aplicación web interactiva desde cero.
--Poner en práctica los conocimientos adquiridos durante el ciclo de DAW.
--Demostrar cómo se puede combinar desarrollo y una temática divertida en un mismo proyecto.
+- Construir una aplicación web interactiva desde cero.
+- Poner en práctica los conocimientos adquiridos durante el ciclo de DAW.
+- Demostrar cómo se puede combinar desarrollo y una temática divertida en un mismo proyecto.
 
 ### Específicos
--Crear un cuestionario dinámico con JavaScript que asigne puntos a cada casa según las respuestas.
--Desarrollar una lógica que determine automáticamente el resultado final.
--Diseñar una interfaz clara, fácil de usar y con ambientación mágica.
--Implementar un backend en PHP para guardar los resultados y mostrarlos al momento.
--Añadir un ranking global para ver cuántos usuarios han sido asignados a cada casa.
--Organizar correctamente la base de datos usando phpMyAdmin.
+- Crear un cuestionario dinámico con JavaScript que asigne puntos a cada casa según las respuestas.
+- Desarrollar una lógica que determine automáticamente el resultado final.
+- Diseñar una interfaz clara, fácil de usar y con ambientación mágica.
+- Implementar un backend en PHP para guardar los resultados y mostrarlos al momento.
+- Añadir un ranking global para ver cuántos usuarios han sido asignados a cada casa.
+- Organizar correctamente la base de datos usando phpMyAdmin.
 
 ---
 
