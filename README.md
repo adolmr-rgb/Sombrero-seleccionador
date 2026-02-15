@@ -39,11 +39,11 @@ Más que un simple ejercicio técnico, quería crear algo completo que mezclara 
 ---
 
 ## Funcionalidades principales
--Cuestionario interactivo
--Selección automática de casa
--Almacenamiento de resultados
--Ranking global actualizado
--Interfaz tematizada
+- Cuestionario interactivo
+- Selección automática de casa
+- Almacenamiento de resultados
+- Ranking global actualizado
+- Interfaz tematizada
 
 ---
 
