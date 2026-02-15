@@ -49,8 +49,8 @@ Más que un simple ejercicio técnico, quería crear algo completo que mezclara 
 ---
 
 ## Autor
-Adolfo Martín Rodríguez (adolmr-rgb)
-Proyecto desarrollado como parte de la formación en Desarrollo de Aplicaciones Web (DAW).
+      Adolfo Martín Rodríguez (adolmr-rgb)
+      Proyecto desarrollado como parte de la formación en Desarrollo de Aplicaciones Web (DAW).
 ---
 ## License
 This project is licensed under the [CC BY-NC-ND 4.0 License](LICENSE).
