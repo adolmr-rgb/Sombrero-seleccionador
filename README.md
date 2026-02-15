@@ -1,23 +1,24 @@
 # Sombrero Seleccionador Interactivo con Ranking de Casas
 
-Aplicación web interactiva inspirada en el Sombrero Seleccionador de Harry Potter, que combina mi pasión por el mundo mágico con los conocimientos adquiridos durante el ciclo de grado superior en Desarrollo de Aplicaciones Web (DAW). El proyecto busca integrar creatividad y técnica mediante una experiencia lúdica, funcional y formativa.
+Este proyecto es una aplicación web inspirada en el famoso Sombrero Seleccionador. Nació como una forma de unir algo que siempre me ha gustado "el mundo mágico" con todo lo que he ido aprendiendo durante el ciclo superior de Desarrollo de Aplicaciones Web (DAW).
+La idea principal es ofrecer una experiencia sencilla pero entretenida: responder a unas preguntas y descubrir a qué casa pertenecerías, mientras tus resultados se suman a un ranking global junto al resto de usuarios.
 
 ---
 
-## 🎯 Objetivos
-
+## ¿Qué busca este proyecto?
+Más que un simple ejercicio técnico, quería crear algo completo que mezclara lógica, diseño y un poco de creatividad.
 ### Generales
-- Desarrollar una aplicación web interactiva que simule el proceso del Sombrero Seleccionador de Hogwarts.
-- Aplicar de forma práctica los conocimientos adquiridos en el ciclo de DAW.
-- Diseñar una experiencia que sirva como ejemplo de integración entre creatividad y desarrollo tecnológico.
+-Construir una aplicación web interactiva desde cero.
+-Poner en práctica los conocimientos adquiridos durante el ciclo de DAW.
+-Demostrar cómo se puede combinar desarrollo y una temática divertida en un mismo proyecto.
 
 ### Específicos
-- Diseñar un cuestionario dinámico en JavaScript que asigne puntuaciones a las casas según las respuestas del usuario.
-- Implementar una lógica de selección automática que determine la casa correspondiente.
-- Desarrollar una interfaz intuitiva y ambientada en el mundo mágico de Harry Potter.
-- Configurar un backend en PHP para gestionar la comunicación con la base de datos, registrar resultados y mostrarlos en tiempo real.
-- Diseñar e implementar un ranking global que muestre el número de usuarios asignados a cada casa de Hogwarts.
-- Garantizar una correcta estructuración de la base de datos en phpMyAdmin.
+-Crear un cuestionario dinámico con JavaScript que asigne puntos a cada casa según las respuestas.
+-Desarrollar una lógica que determine automáticamente el resultado final.
+-Diseñar una interfaz clara, fácil de usar y con ambientación mágica.
+-Implementar un backend en PHP para guardar los resultados y mostrarlos al momento.
+-Añadir un ranking global para ver cuántos usuarios han sido asignados a cada casa.
+-Organizar correctamente la base de datos usando phpMyAdmin.
 
 ---
 
@@ -34,15 +35,15 @@ Aplicación web interactiva inspirada en el Sombrero Seleccionador de Harry Pott
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/adolmr-rgb/Sombrero-seleccionador.git
-
+   Después, configura tu entorno local (por ejemplo XAMPP o similar), importa la base de datos y ¡listo para probarlo!
 ---
 
 ## Funcionalidades principales
-- Cuestionario interactivo
-- Asignación automática de casa
-- Registro y almacenamiento de resultados
-- Ranking global de casa
-- Interfaz tematizada
+-Cuestionario interactivo
+-Selección automática de casa
+-Almacenamiento de resultados
+-Ranking global actualizado
+-Interfaz tematizada
 
 ---
 
